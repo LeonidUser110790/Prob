@@ -1,0 +1,18 @@
+a = [1, 2, 3, 4]
+b = list(str(1345672))
+print(a+b)
+c = max(a)
+print(c)
+d = min(b)
+print(d)
+e = [[1,2,3], [4,5,6]]
+a.append(12)
+print(a)
+a.insert(2, "Hi")
+print(a)
+a.extend(b)
+print(a)
+a.remove(3)
+print(a)
+a.pop(4)
+print(a)
